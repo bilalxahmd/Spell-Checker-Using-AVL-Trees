@@ -1,3 +1,16 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <algorithm>
+#include <cctype>    // For tolower function
+#include <cstdlib>   // For system("cls") and system("pause")
+#include "BST.h"     // For BST class and Node structure
+#include "LinkedList.h" // For LinkedList class used for storing suggestions
+#include "CorrectedWords.h" // For CorrectedWords class to store mistake history
+#include "SpellCheck.h" // For spell check functions like missingCharacter, extraCharacter, etc.
+#include "loadingfunction.h" // Assuming this contains your loading screen function
+
 int main()
 {
 	cout<<endl<<"\n\t\t-------------------------------";

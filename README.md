@@ -24,13 +24,12 @@ This project is a spell checker application developed using C++. It utilizes dat
 - **`LinkedList.h` and `LinkedList.cpp`:** Contains the implementation of a linked list used for managing suggestions and correction history.
 - **`CorrectedWords.h` and `CorrectedWords.cpp`:** Stores and manages a history of corrections made during a session.
 - **`SpellCheck.h` and `SpellCheck.cpp`:** Contains various algorithms for detecting and suggesting corrections for spelling mistakes.
-- **`loadingfunction.h` and `loadingfunction.cpp`:** Displays a loading screen animation when the application starts.
 - **`words.txt`:** The dictionary file containing a list of correctly spelled words.
 
 ### How to Run the Project
 1. **Compile the Project:** Ensure all `.cpp` and `.h` files are in the same directory. Compile the project using a C++ compiler. For example:
    ```bash
-   g++ -o SpellChecker main.cpp BST.cpp LinkedList.cpp CorrectedWords.cpp SpellCheck.cpp loadingfunction.cpp
+   g++ -o SpellChecker main.cpp BST.cpp LinkedList.cpp CorrectedWords.cpp SpellCheck.cpp
    ```
 2. **Run the Executable:**   
    ```bash
